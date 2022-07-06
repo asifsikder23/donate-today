@@ -14,11 +14,11 @@ body{
     padding: 150px;
 }
 .section1-title{
-    font-size: 60px;
+    font-size: 50px;
 }
 .section2-title{
     text-align:center;
-    font-size: 35px;
+    font-size: 60px;
 }
 .working-title{
     text-align:center;
@@ -36,7 +36,7 @@ body{
 .section2-text{
     text-align:center;
     opacity: 70%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .section1-btn{
     text-decoration: none;
@@ -62,6 +62,9 @@ body{
     padding: 10px;
     opacity: 70%;
 }
+.taka:hover {
+	box-shadow: 0 10px 20px rgba(99, 99, 99, 0.7);
+}
 #select-item{
     color: coral;
     border-radius: 10px;
@@ -78,34 +81,46 @@ input {
     border-bottom: 1px solid black;
 }
 .planning-food{
-    background-color: rgb(221, 240, 240);
+    background-color: rgb(200, 214, 228);
     padding: 50px 30px;
     height: 200px;
     width: 300px;
     text-align:left;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 2px 2px 16px grey;
+}
+.planning-food:hover {
+	box-shadow: 0 10px 20px rgba(99, 99, 99, 0.7);
 }
 .food-text{
     opacity: 70%;
 }
 .planning-shelter{
-    background-color: rgb(241, 230, 241);
+    background-color: rgb(224, 189, 224);
     padding: 50px 30px;
     height: 200px;
     width: 300px;
     text-align:left;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 2px 2px 16px grey;
+}
+.planning-shelter:hover {
+	box-shadow: 0 10px 20px rgba(99, 99, 99, 0.7);
 }
 .planning-education{
-    background-color: rgb(240, 240, 223);
+    background-color: rgb(235, 235, 183);
     padding: 50px 30px;
     height: 200px;
     width: 300px;
     text-align:left;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 2px 2px 16px grey;
+}
+.planning-education:hover {
+	box-shadow: 0 10px 20px rgba(99, 99, 99, 0.7);
 }
 .planning_container{
     display: flex;
@@ -135,4 +150,45 @@ footer{
 #footer-text{
     color: rgb(190, 103, 103);
     font-size: 25px;
+}
+.section3-container{
+    background-color: rgb(206, 240, 193);
+    height: 650px;
+    padding-top: 20px;
+}
+.section2-container{
+    padding: 80px;
+}
+.form {
+	margin-bottom: 25px;
+    text-align: center;
+    background-color: rgb(195, 241, 226);
+    height: 150px;
+    width: 1000px;
+    padding-top: 80px;
+    padding-left: 50px;
+    margin-left: 150px;
+}
+
+.form-email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid rgb(202, 191, 167);
+	width: 430px;
+	font-size: 18px;
+	color: rgb(54, 54, 146);
+}
+.form-button {
+	background-color: coral;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}
+
+.form-button:hover {
+	box-shadow: 0 10px 20px rgba(255, 171, 61, 0.7);
 }
