@@ -41,10 +41,15 @@ body{
 }
 .section1-btn{
     text-decoration: none;
-    background-image:linear-gradient(rgb(207, 137, 7),tomato);
+    background-color: coral;
     color: white;
     padding: 10px 40px;
     border-radius: 5%;
+    transition-duration: 0.4s;
+}
+.section1-btn:hover{
+    background-color: #4CAF50;
+    color: white;
 }
 .amount{
     display: flex;
@@ -62,16 +67,15 @@ body{
     border-radius: 10px;
     padding: 10px;
     opacity: 70%;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 .taka:hover {
 	box-shadow: 0 10px 20px rgba(99, 99, 99, 0.7);
+    background-color: coral;
+    color: white;
 }
-#select-item{
-    color: coral;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid coral;
-}
+
 input {
     width: 600px;
     padding: 10px 20px;
@@ -161,37 +165,41 @@ footer{
     padding: 80px;
 }
 .form {
-	margin-bottom: 25px;
-    text-align: center;
+    height: 65px;
+    width: 550px;
+    display: flex;
+    margin: 0 auto;
     background-color: rgb(195, 241, 226);
-    height: 150px;
-    width: 1000px;
     padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 50px;
-    margin-left: 150px;
+    margin-bottom: 50px;
 }
-
 .form-email {
-	padding: 20px 25px;
-	border-radius: 5px;
+	padding: 0px 25px;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
  	border: 1px solid rgb(202, 191, 167);
-	width: 430px;
+	width: 340px;
+    height: 50px;
 	font-size: 18px;
 	color: rgb(54, 54, 146);
 }
 .form-button {
 	background-color: coral;
-	padding: 10px;
 	border: none;
-	width: 244px;
-	height: 65px;
-	border-radius: 5px;
+    padding: 0 15px;
+	height: 52px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 	font-size: 18px;
 	color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
-
 .form-button:hover {
-	box-shadow: 0 10px 20px rgba(255, 171, 61, 0.7);
+    background-color: hwb(122 30% 31%);
+    color: white;
 }
 .signup-container{
     background-image: url(images/donation15.jpg);
