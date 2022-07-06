@@ -262,12 +262,10 @@ footer{
     ;
     height: 250px;
 }
-#learn-more{
+.learn-more{
+    color: red;
     text-align: end;
 }
-.event-headline{
-    color: coral;
-}
 small{
-    color: rgb(1, 16, 148);
+    color: red;
 }
