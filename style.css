@@ -32,6 +32,7 @@ body{
 }
 .section1-text{
     font-size: 18px;
+    margin-top: -20px;
 }
 .section2-text{
     text-align:center;
@@ -191,4 +192,74 @@ footer{
 
 .form-button:hover {
 	box-shadow: 0 10px 20px rgba(255, 171, 61, 0.7);
+}
+.signup-container{
+    background-image: url(images/donation15.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+.signup-text{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.signup-title{
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+.event-title{
+    color: coral;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 30px;
+}
+#event-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+}
+.event-container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 5%;
+    margin-top: -2%
+}
+.event1{
+    width: 400px;
+    height: 460px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: justify;
+}
+.event2{
+    width: 400px;
+    height: 460px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: justify;
+}
+.event-image{
+    width:400px
+    ;
+    height: 250px;
+}
+#learn-more{
+    text-align: end;
+}
+.event-headline{
+    color: coral;
+}
+small{
+    color: rgb(1, 16, 148);
 }
